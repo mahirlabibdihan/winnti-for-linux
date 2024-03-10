@@ -14,7 +14,7 @@ int is_owner(void) __attribute__((visibility("hidden")));
 FILE *hide_ports(const char *filename) __attribute__((visibility("hidden")));
 typedef struct struct_syscalls
 {
-    char syscall_name[51];
+    char syscall_name[56];
     void *(*syscall_func)();
 } s_syscalls;
 
